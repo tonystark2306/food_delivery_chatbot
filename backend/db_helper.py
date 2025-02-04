@@ -1,12 +1,10 @@
-# Author: Dhaval Patel. Codebasics YouTube Channel
-
 import mysql.connector
 global cnx
 
 cnx = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="root",
+    password="12345678",
     database="pandeyji_eatery"
 )
 
